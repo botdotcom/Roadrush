@@ -1,0 +1,36 @@
+<!-- html code for admin to view things on web -->
+<!DOCTYPE HTML>
+<html>
+<head>	
+	<title> Databases | Roadrush </title>
+	<link rel="stylesheet" type="text/css" href="style-sign.css">
+</head>
+<body>
+	<div style="text-align:center" id="View1"> 
+		<img src="logo_f7_jpeg.jpg" style="width:250px; height:250px">
+		<h1> Roadrush </h1> 
+	    <h2> Now stay updated and avoid all traffic woes... </h2> <!-- tagline -->	
+		<form name="next1" method="post" action="userdb.php"> 			
+			<!-- button to view user database -->			
+			<input type="submit" value="User Database"/>
+		</form>
+	</br>
+		<form name="next1" method="post" action="trafficdb.php"> 			
+			<!-- button to view traffic database -->			
+			<input type="submit" value="Traffic Database"/>
+		</form>
+	</br>
+	<!-- go back to previous page -->
+		<form name="back" method="post" action="login_success.html">
+			<!-- button to go back -->		
+			<input type="submit" value="Go Back"/> 					
+		</form>
+    </br>
+    <!-- button to logout -->
+	    <form name="logout" method="post" action="logout.php">
+			<!-- button to logout -->		
+			<input type="submit" value="Logout"/> 					
+		</form>
+	</div>
+</body>
+</html>
