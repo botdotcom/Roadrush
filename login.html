@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<!-- html code for admin login form on web -->
+<html>
+<head>	
+	<title> Admin Login | Roadrush </title>
+	<link rel="stylesheet" type="text/css" href="favicon.ico">
+</head>
+<body>
+	<div style="text-align:center" id="Log-In"> 
+	<!-- html form content starts here -->	
+	<img src="logo_f7_jpeg.jpg" style="width:250px; height:250px">
+	<h1> Roadrush </h1> 
+	<h2> Now stay updated and avoid all traffic woes... </h2> <!-- tagline -->	
+	</div>
+	<!-- some css styling -->
+	<fieldset style="width:30%; position:absolute; margin:0px auto">
+		<legend style="float:center; color:blue"> ADMIN LOGIN </legend> 
+	<!-- action to be performed after submit button is clicked -->
+	<form name="adminlogin" method="post" action="login_response.php"> 
+		<table align="center"> 
+			<!-- username -->
+			<tr> 
+				<td> <input type="text" name="uname" placeholder="Username" id="uname" maxlength="20" />	</td>
+			</tr>
+			<!-- password -->
+			<tr> 
+				<td> <input type="password" name="pwd" placeholder="Password" maxlength="20"/> </td>
+			</tr>
+			<!-- submit and reset buttons -->
+			<tr> 
+				<td> <input type="submit" name="submit" value="Submit"/> 
+				<input type="reset" name="reset" value="Reset"> </td>
+			</tr>
+		</table>
+ 	</form>
+ 	</fieldset>
+    <!-- </div>     -->
+</body>
+</html>
