@@ -1,6 +1,6 @@
 <?php
 //connect to database again!
-$connection = mysqli_connect("mysql15.000webhost.com","a7981683_root","roadrush4","a7981683_esdl") or die("Connection failed! ".mysql_error());
+$connection = mysqli_connect("127.0.0.1","root","root","esdl_trial") or die("Connection failed! ".mysql_error());
 //get data to show 
 $squery = mysqli_query($connection, "SELECT uid,name,username FROM users");
 header("Refresh:10"); //refresh database updates after every 10 sec
